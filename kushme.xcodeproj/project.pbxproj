@@ -14,6 +14,11 @@
 		0322E8C71B01244200442DFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0322E8C61B01244200442DFD /* Images.xcassets */; };
 		0322E8CA1B01244200442DFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0322E8C81B01244200442DFD /* LaunchScreen.xib */; };
 		0322E8D61B01244300442DFD /* kushmeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0322E8D51B01244300442DFD /* kushmeTests.m */; };
+		0322E8E61B01263300442DFD /* homeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0322E8E51B01263300442DFD /* homeViewController.m */; };
+		0322E8E91B01263F00442DFD /* checkInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0322E8E81B01263F00442DFD /* checkInViewController.m */; };
+		0322E8EC1B01264900442DFD /* dealsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0322E8EB1B01264900442DFD /* dealsViewController.m */; };
+		0322E8EF1B01265900442DFD /* uploadPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0322E8EE1B01265900442DFD /* uploadPicViewController.m */; };
+		0322E8F21B01266200442DFD /* inboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0322E8F11B01266200442DFD /* inboxViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,16 @@
 		0322E8CF1B01244300442DFD /* kushmeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kushmeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0322E8D41B01244300442DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0322E8D51B01244300442DFD /* kushmeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kushmeTests.m; sourceTree = "<group>"; };
+		0322E8E41B01263300442DFD /* homeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeViewController.h; sourceTree = "<group>"; };
+		0322E8E51B01263300442DFD /* homeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeViewController.m; sourceTree = "<group>"; };
+		0322E8E71B01263F00442DFD /* checkInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checkInViewController.h; sourceTree = "<group>"; };
+		0322E8E81B01263F00442DFD /* checkInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = checkInViewController.m; sourceTree = "<group>"; };
+		0322E8EA1B01264900442DFD /* dealsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dealsViewController.h; sourceTree = "<group>"; };
+		0322E8EB1B01264900442DFD /* dealsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dealsViewController.m; sourceTree = "<group>"; };
+		0322E8ED1B01265900442DFD /* uploadPicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uploadPicViewController.h; sourceTree = "<group>"; };
+		0322E8EE1B01265900442DFD /* uploadPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = uploadPicViewController.m; sourceTree = "<group>"; };
+		0322E8F01B01266200442DFD /* inboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inboxViewController.h; sourceTree = "<group>"; };
+		0322E8F11B01266200442DFD /* inboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = inboxViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,11 @@
 		0322E8B81B01244200442DFD /* kushme */ = {
 			isa = PBXGroup;
 			children = (
+				0322E8E31B01261B00442DFD /* Inbox */,
+				0322E8E21B01261600442DFD /* Upload Pic */,
+				0322E8E11B01261300442DFD /* Deals */,
+				0322E8E01B01260F00442DFD /* Check In */,
+				0322E8DF1B01260A00442DFD /* Home */,
 				0322E8BD1B01244200442DFD /* AppDelegate.h */,
 				0322E8BE1B01244200442DFD /* AppDelegate.m */,
 				0322E8C01B01244200442DFD /* ViewController.h */,
@@ -117,6 +137,51 @@
 				0322E8D41B01244300442DFD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0322E8DF1B01260A00442DFD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0322E8E41B01263300442DFD /* homeViewController.h */,
+				0322E8E51B01263300442DFD /* homeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		0322E8E01B01260F00442DFD /* Check In */ = {
+			isa = PBXGroup;
+			children = (
+				0322E8E71B01263F00442DFD /* checkInViewController.h */,
+				0322E8E81B01263F00442DFD /* checkInViewController.m */,
+			);
+			name = "Check In";
+			sourceTree = "<group>";
+		};
+		0322E8E11B01261300442DFD /* Deals */ = {
+			isa = PBXGroup;
+			children = (
+				0322E8EA1B01264900442DFD /* dealsViewController.h */,
+				0322E8EB1B01264900442DFD /* dealsViewController.m */,
+			);
+			name = Deals;
+			sourceTree = "<group>";
+		};
+		0322E8E21B01261600442DFD /* Upload Pic */ = {
+			isa = PBXGroup;
+			children = (
+				0322E8ED1B01265900442DFD /* uploadPicViewController.h */,
+				0322E8EE1B01265900442DFD /* uploadPicViewController.m */,
+			);
+			name = "Upload Pic";
+			sourceTree = "<group>";
+		};
+		0322E8E31B01261B00442DFD /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				0322E8F01B01266200442DFD /* inboxViewController.h */,
+				0322E8F11B01266200442DFD /* inboxViewController.m */,
+			);
+			name = Inbox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +284,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0322E8EC1B01264900442DFD /* dealsViewController.m in Sources */,
 				0322E8C21B01244200442DFD /* ViewController.m in Sources */,
 				0322E8BF1B01244200442DFD /* AppDelegate.m in Sources */,
 				0322E8BC1B01244200442DFD /* main.m in Sources */,
+				0322E8EF1B01265900442DFD /* uploadPicViewController.m in Sources */,
+				0322E8E91B01263F00442DFD /* checkInViewController.m in Sources */,
+				0322E8E61B01263300442DFD /* homeViewController.m in Sources */,
+				0322E8F21B01266200442DFD /* inboxViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = kushme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = kushme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
