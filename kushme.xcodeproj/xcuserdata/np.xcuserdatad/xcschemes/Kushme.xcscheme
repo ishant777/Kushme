@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0322E8B51B01244200442DFD"
-               BuildableName = "kushme.app"
-               BlueprintName = "kushme"
-               ReferencedContainer = "container:kushme.xcodeproj">
+               BlueprintIdentifier = "5299E5B31B022DCD0030F732"
+               BuildableName = "Kushme.app"
+               BlueprintName = "Kushme"
+               ReferencedContainer = "container:Kushme.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0322E8CE1B01244300442DFD"
-               BuildableName = "kushmeTests.xctest"
-               BlueprintName = "kushmeTests"
-               ReferencedContainer = "container:kushme.xcodeproj">
+               BlueprintIdentifier = "5299E5CC1B022DCD0030F732"
+               BuildableName = "KushmeTests.xctest"
+               BlueprintName = "KushmeTests"
+               ReferencedContainer = "container:Kushme.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0322E8CE1B01244300442DFD"
-               BuildableName = "kushmeTests.xctest"
-               BlueprintName = "kushmeTests"
-               ReferencedContainer = "container:kushme.xcodeproj">
+               BlueprintIdentifier = "5299E5CC1B022DCD0030F732"
+               BuildableName = "KushmeTests.xctest"
+               BlueprintName = "KushmeTests"
+               ReferencedContainer = "container:Kushme.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0322E8B51B01244200442DFD"
-            BuildableName = "kushme.app"
-            BlueprintName = "kushme"
-            ReferencedContainer = "container:kushme.xcodeproj">
+            BlueprintIdentifier = "5299E5B31B022DCD0030F732"
+            BuildableName = "Kushme.app"
+            BlueprintName = "Kushme"
+            ReferencedContainer = "container:Kushme.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0322E8B51B01244200442DFD"
-            BuildableName = "kushme.app"
-            BlueprintName = "kushme"
-            ReferencedContainer = "container:kushme.xcodeproj">
+            BlueprintIdentifier = "5299E5B31B022DCD0030F732"
+            BuildableName = "Kushme.app"
+            BlueprintName = "Kushme"
+            ReferencedContainer = "container:Kushme.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0322E8B51B01244200442DFD"
-            BuildableName = "kushme.app"
-            BlueprintName = "kushme"
-            ReferencedContainer = "container:kushme.xcodeproj">
+            BlueprintIdentifier = "5299E5B31B022DCD0030F732"
+            BuildableName = "Kushme.app"
+            BlueprintName = "Kushme"
+            ReferencedContainer = "container:Kushme.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,19 +1,19 @@
 //
-//  kushmeTests.m
-//  kushmeTests
+//  KushmeTests.m
+//  KushmeTests
 //
-//  Created by Paras Gorasiya on 11/05/15.
-//  Copyright (c) 2015 Paras Gorasiya. All rights reserved.
+//  Created by Test on 12/05/15.
+//  Copyright (c) 2015 Ishant Tiwari. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface kushmeTests : XCTestCase
+@interface KushmeTests : XCTestCase
 
 @end
 
-@implementation kushmeTests
+@implementation KushmeTests
 
 - (void)setUp {
     [super setUp];

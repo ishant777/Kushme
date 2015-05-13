@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>kushme.xcscheme</key>
+		<key>Kushme.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0322E8B51B01244200442DFD</key>
+		<key>5299E5B31B022DCD0030F732</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0322E8CE1B01244300442DFD</key>
+		<key>5299E5CC1B022DCD0030F732</key>
 		<dict>
 			<key>primary</key>
 			<true/>

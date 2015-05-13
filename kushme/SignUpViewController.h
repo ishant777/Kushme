@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SignUpViewController.h
 //  Kushme
 //
 //  Created by Test on 12/05/15.
@@ -7,24 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreLocation/CoreLocation.h>
 @class MBProgressHUD;
 
 
-@interface ViewController : UIViewController{
-    
+@interface SignUpViewController : UIViewController<UITextFieldDelegate>{
     NSMutableData *
     nsUrlResponseData;
     NSMutableArray * allData;
     MBProgressHUD *HUD;
-    NSString *latitudeValue;
-    NSString *longitudeValue;
 }
 
-@property (nonatomic, strong) CLLocationManager *locationManager;
-@property(nonatomic,retain)IBOutlet UITextField *fldUsername;
+@property(nonatomic,retain)IBOutlet UITextField *fldUserame;
 @property(nonatomic,retain)IBOutlet UITextField *fldPassword;
-
+@property(nonatomic,retain)IBOutlet UITextField *fldEmail;
 
 @end
-
